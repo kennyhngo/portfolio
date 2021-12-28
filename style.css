@@ -176,6 +176,29 @@ a:hover, a:focus, a:active, a:visited, a:link
     display: block;
     background: #fff;
     padding: 30px;
+    padding-bottom: 0;
+}
+
+.contact-me
+{
+    padding: 10px;
+}
+
+.h2-header
+{
+    margin-top: -5px;
+}
+
+.content
+{
+    padding-bottom: -10px;
+}
+
+.about-me-icons
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
 }
 
 /* ABOVE: Secondary Section */
