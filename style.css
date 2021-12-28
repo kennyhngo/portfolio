@@ -121,3 +121,61 @@ a:hover, a:focus, a:active, a:visited, a:link
 /* ABOVE: clearfix */
 
 /* ! DO NOT TOUCH ABOVE : 2021-12-27 11:46 PM */ 
+
+.sections-wrapper
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.row
+{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.primary, .secondary
+{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.primary
+{
+    width: 66.66667%;
+    padding-left: 30px;
+}
+
+.secondary
+{
+    width: 33.33333%;
+    padding-right: 30px;
+}
+
+/* ABOVE: main section main divs */
+
+.about-me
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about-me-inner
+{
+    background: #fff;
+    padding: 30px;
+}
+
+/* ABOVE: Primary Section */
+
+.aside-info
+{
+    display: block;
+    background: #fff;
+    padding: 30px;
+}
+
+/* ABOVE: Secondary Section */
