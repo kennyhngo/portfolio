@@ -160,12 +160,14 @@ a:hover, a:focus, a:active, a:visited, a:link
 {
     width: 66.66667%;
     padding-left: 30px;
+    min-width: 600px;
 }
 
 .secondary
 {
     width: 33.33333%;
     padding-right: 30px;
+    min-width: 300px;
 }
 
 /* ABOVE: main section main divs */
@@ -222,6 +224,7 @@ a:hover, a:focus, a:active, a:visited, a:link
     padding: 30px;
     padding-bottom: 0;
     margin-bottom: 30px;
+    min-width: 300px;
 }
 
 .aside-info .section-inner
@@ -304,6 +307,7 @@ a:hover, a:focus, a:active, a:visited, a:link
     font-size: 14px;
     font-weight: 400;
     font-family: "Lato", arial, sans-serif;
+    display: flex;
     float: right;
 }
 
