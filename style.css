@@ -270,4 +270,41 @@ a:hover, a:focus, a:active, a:visited, a:link
     margin-left: 6px;
 }
 
+.aside-info .section-inner .content .skillset
+{
+    display: block;
+    box-sizing: border-box;
+}
+
+.aside-info .section-inner .content .skillset .item
+{
+    box-sizing: border-box;
+}
+
+.skillset .level-bar
+{
+    height: 15px;
+    background: #e8e8e8;
+}
+
+.skillset .level-bar .level-bar-inner
+{
+    height: 15px;
+    background: #66cb8c;
+}
+
+.content .skillset .item .skill-title
+{
+    margin-bottom: 5px;
+}
+
+.skillset .item .level-label
+{
+    color: #7b8288;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", arial, sans-serif;
+    float: right;
+}
+
 /* ! ABOVE: Secondary Section */
