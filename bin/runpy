@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -Eeuo pipefail
+set -x
+
+# Clearn
+rm -rf html
+
+# Build
+python3 backend/__main__.py
