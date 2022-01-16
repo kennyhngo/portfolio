@@ -1,7 +1,64 @@
 [
     {
-        "language": "C++",
-        "description": "Extremely Comfortable",
-        "percentage": 95
+        "template": "index.html",
+        "context": {
+            "skills": [
+                {
+                    "language": "Assembly",
+                    "description": "Terrible",
+                    "percentage": 5
+                },
+                {
+                    "language": "C++",
+                    "description": "Extremely Comfortable",
+                    "percentage": 95
+                },
+                {
+                    "language": "Python",
+                    "description": "Very Comfortable",
+                    "percentage": 90
+                },
+                {
+                    "language": "R",
+                    "description": "Somewhat Comfortable",
+                    "percentage": 60
+                },
+                {
+                    "language": "Git",
+                    "description": "Comfortable with Basics",
+                    "percentage": 55
+                },
+                {
+                    "language": "Java",
+                    "description": "Comfortable",
+                    "percentage": 45
+                },
+                {
+                    "language": "HTML 5",
+                    "description": "Beginner but Confident",
+                    "percentage": 30
+                },
+                {
+                    "language": "CSS 3",
+                    "description": "Beginner but Confident",
+                    "percentage": 30
+                },
+                {
+                    "language": "JavaScript (ES6)",
+                    "description": "Beginner and Clueless",
+                    "percentage": 10
+                },
+                {
+                    "language": "LaTeX",
+                    "description": "Good with It",
+                    "percentage": 50
+                },
+                {
+                    "language": "Jinja2",
+                    "description": "Great with It",
+                    "percentage": 70
+                }
+            ]
+        }
     }
 ]
