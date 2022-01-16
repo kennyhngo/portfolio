@@ -1,0 +1,314 @@
+*
+{
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+}
+
+/* ! ABOVE IS FOR BOX MODEL ONLY */
+
+body
+{
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 16px;
+    background: #DAE3E7;   
+    color: #434343;
+}
+
+.container
+{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+}
+
+.clearfix
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #778492;
+}
+
+/* ABOVE: universal settings */
+
+.header
+{
+    background: #f5f5f5;
+    color: white;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    padding: 30px 0;
+    height: auto;
+    width: auto;
+}
+
+.header .image-profile
+{
+    margin-right: 30px;
+    max-width: 240px;
+    height: auto;
+}
+
+.pull-left
+{
+    float: left !important;
+}
+
+.header .name
+{
+    float: left;
+    color: black;
+    font-size: 38px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.header .desc
+{
+    font-family: "Lato", arial, sans-serif;
+    color: #778492;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* ABOVE: header */
+
+.header .socials
+{
+    display: inline-block;
+    /* padding: 10px; */
+    margin-top: 10px;
+}
+
+.header .socials .icons
+{
+    font-size: 30px;
+    border-color: lightpink; /* TODO: change color later */
+    margin-right: 5px;
+}
+
+.header .socials .linkedin
+{
+    color: #007bb6 /* color optional */
+}
+
+.header .socials .github
+{
+    color: #434343
+}
+
+.header .socials .resume
+{
+    color: #19832eb5
+}
+
+a:hover, a:focus, a:active, a:visited, a:link
+{
+    text-decoration: none; /* this removes the pesky underline */
+}
+
+.icons:hover
+{
+    background-color: #2b2b2b;
+}
+
+/* ABOVE: socials & icons */
+
+.header .profile-content
+{
+    float: none;
+}
+
+/* ABOVE: clearfix */
+
+/* ! DO NOT TOUCH ABOVE : 2021-12-27 11:46 PM */ 
+
+.sections-wrapper
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.row
+{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.primary, .secondary
+{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.primary
+{
+    width: 66.66667%;
+    padding-left: 30px;
+    min-width: 600px;
+}
+
+.secondary
+{
+    width: 33.33333%;
+    padding-right: 30px;
+    min-width: 300px;
+}
+
+/* ABOVE: main section main divs */
+
+.about-me
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.inner
+{
+    background: #fff;
+    padding: 30px;
+}
+
+/* ABOVE: about me */
+
+.projects
+{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.password-crack
+{
+    margin-bottom: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    display: box;
+}
+
+.h3-title
+{
+    margin-bottom: 5px;
+    font-size: 20px
+
+}
+
+.caption
+{
+    margin-bottom: 30px;
+    color: #778492;
+}
+
+/* ABOVE: projects */
+
+/* ! ABOVE: Primary Section */
+
+.aside-info
+{
+    display: block;
+    background: #fff;
+    padding: 30px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+
+.aside-info .section-inner
+{
+    padding: 10px;
+}
+
+.aside-info .section-inner .h2-header
+{
+    margin-top: -5px;
+}
+
+.aside-info .section-inner .content
+{
+    padding-bottom: -10px;
+}
+
+.aside-info .section-inner .content .about-me-icons
+{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.aside-info .section-inner .content .item
+{
+    margin-bottom: 30px;
+}
+
+.aside-info .section-inner .content .title
+{
+    display: inline;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.aside-info .section-inner .content .university
+{
+    font-family: "Lato", arial, sans-serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.aside-info .section-inner .content .skillset
+{
+    display: block;
+    box-sizing: border-box;
+}
+
+.aside-info .section-inner .content .skillset .item
+{
+    box-sizing: border-box;
+}
+
+.skillset .level-bar
+{
+    height: 15px;
+    background: #e8e8e8;
+}
+
+.skillset .level-bar .level-bar-inner
+{
+    height: 15px;
+    background: #66cb8c;
+}
+
+.content .skillset .item .skill-title
+{
+    margin-bottom: 5px;
+}
+
+.skillset .item .level-label
+{
+    color: #7b8288;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", arial, sans-serif;
+    display: flex;
+    float: right;
+}
+
+/* ! ABOVE: Secondary Section */

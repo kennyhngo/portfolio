@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Stop when errors occur
+set -Eeuo pipefail
+set -x
+
+# Open Server
+open http://localhost:8000
+
+# Run Server
+cd html
+python3 -m http.server
