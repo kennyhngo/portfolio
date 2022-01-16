@@ -5,9 +5,6 @@
 # A .gitignore file will tell git which files and directories to ignore and
 # not add to version control.
 
-# Project Files
-html/
-
 # Python
 *.pyc
 __pycache__/
