@@ -4,19 +4,19 @@
         "context": {
             "skills": [
                 {
-                    "language": "Assembly",
-                    "description": "Terrible",
-                    "percentage": 5
-                },
-                {
                     "language": "C++",
                     "description": "Extremely Comfortable",
-                    "percentage": 95
+                    "percentage": 85
                 },
                 {
                     "language": "Python",
                     "description": "Very Comfortable",
-                    "percentage": 90
+                    "percentage": 80
+                },
+                {
+                    "language": "Jinja2",
+                    "description": "Great with It",
+                    "percentage": 70
                 },
                 {
                     "language": "R",
@@ -25,28 +25,18 @@
                 },
                 {
                     "language": "Git",
-                    "description": "Comfortable with Basics",
+                    "description": "Basics Mastered",
                     "percentage": 55
                 },
                 {
-                    "language": "Java",
-                    "description": "Comfortable",
-                    "percentage": 45
-                },
-                {
                     "language": "HTML 5",
-                    "description": "Beginner but Confident",
-                    "percentage": 30
+                    "description": "Decent",
+                    "percentage": 50
                 },
                 {
                     "language": "CSS 3",
-                    "description": "Beginner but Confident",
-                    "percentage": 30
-                },
-                {
-                    "language": "JavaScript (ES6)",
-                    "description": "Beginner and Clueless",
-                    "percentage": 10
+                    "description": "Decent",
+                    "percentage": 50
                 },
                 {
                     "language": "LaTeX",
@@ -54,9 +44,14 @@
                     "percentage": 50
                 },
                 {
-                    "language": "Jinja2",
-                    "description": "Great with It",
-                    "percentage": 70
+                    "language": "Java",
+                    "description": "Comfortable",
+                    "percentage": 45
+                },
+                {
+                    "language": "JavaScript (ES6)",
+                    "description": "Getting There",
+                    "percentage": 30
                 }
             ]
         }
